@@ -2,12 +2,11 @@
 *  {
     box-sizing: border-box;
 }
-flex {
 
-}
 .flex-container {
    display: flex;
    flex: 6;
+   background-color: aliceblue;
 }
 
 .flex-container > div {
@@ -45,6 +44,7 @@ div {
    color: black;
    margin: 10px;
    height: 496px;
+   background-color: pink;
 
 }
 .section2-row1 {
@@ -60,6 +60,7 @@ div {
    color: black;
    margin: 10px;
    height: 543px;
+   background-color: purple;
 }
 
 .section3-column1 {
@@ -103,6 +104,7 @@ div {
     display: flex;
     color: black;
     margin: 10px;
+    background-color: lightblue;
 }
 .section4-row1 {
     flex: 6;
@@ -120,6 +122,7 @@ div {
      color: black;
      font-size: auto;
      flex-direction: row;
+     background-color: violet;
 }
 .section5-row1 {
     flex: 6;
@@ -162,6 +165,7 @@ div {
     display: flex;
     color: black;
     margin: 10px;
+    background-color: yellow;
 }
 .section6-row1 {
     flex: 6;
@@ -175,6 +179,7 @@ div {
 
 /* section 7 for the line and footer  */
  .section7 {
+    background-color: green;
      display: flex;
      flex-direction: column;
  }
