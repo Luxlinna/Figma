@@ -1,0 +1,192 @@
+/* Setting for default */
+*  {
+    box-sizing: border-box;
+}
+flex {
+
+}
+.flex-container {
+   display: flex;
+   flex: 6;
+}
+
+.flex-container > div {
+   flex: auto;
+   color: black;
+   margin: 10px;
+   font-size: 20px;
+}
+
+img {
+   text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+.row {
+   width: 100%;
+   border-color: none;
+   height: 30px;
+   text-align: center;
+}
+
+/* Section 1 for the header */
+.section1 {
+   display: flex;
+}
+div {
+   padding: 10px;
+}
+
+/* Section 2 for the design thinking superpowers*/
+.section2 {
+   display: flex;
+   color: black;
+   margin: 10px;
+   height: 496px;
+
+}
+.section2-row1 {
+   flex: 6;
+}
+.section2-row2 {
+   flex: 6;
+   text-align: center;
+}
+
+/* Section3 for design tools to unveil your superpowers*/
+.section3 {
+   color: black;
+   margin: 10px;
+   height: 543px;
+}
+
+.section3-column1 {
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+   height: 30%;
+}
+.section3-column2 {
+   display: flex;
+   flex: 3;
+   height: 50%;
+}
+.section3-column3 {
+   height: 20%;
+   text-align: center;
+}
+.section3-column2-row1 {
+   flex: 3;
+   margin: 10px;
+   padding: 10px;
+}
+.section3-column2-row2 {
+   flex: 3;
+   margin: 10px;
+   padding: 10px;
+}
+.section3-column2-row3 {
+   flex: 3;
+   margin: 10px;
+   padding: 10px;
+}
+.section3-column2-row4 {
+   flex: 3;
+   margin: 10px;
+   padding: 10px;
+}
+
+/* Section 4 for Design Professionals */
+.section4 {
+    display: flex;
+    color: black;
+    margin: 10px;
+}
+.section4-row1 {
+    flex: 6;
+    font-style: initial;
+    font-size: auto;
+}
+.section4-row2 {
+    flex: 6;
+    text-align: right;
+}
+
+/* Section 5 for Product Managers */
+.section5 {
+     display: flex;
+     color: black;
+     font-size: auto;
+     flex-direction: row;
+}
+.section5-row1 {
+    flex: 6;
+    text-align: left;
+}
+.section5-row2 {
+    flex: 6;
+    font-size: auto;
+}
+.section5-row2-column1 {
+    display: flex;
+    flex-direction: row;
+}
+.section5-row2-column1 img {
+    text-align: left;
+    margin-top: 25px;
+    flex-grow: auto;
+}
+.section5-row2-column2 {
+    display: flex;
+    flex-direction: row;
+}
+.section5-row2-column2 img {
+    text-align: left;
+    margin-top: 25px;
+    flex-grow: auto;
+}
+.section5-row2-column3 {
+    display: flex;
+    flex-direction: row;
+}
+.section5-row2-column3 img {
+    text-align: left;
+    margin-top: 25px;
+    flex-grow: auto;
+}
+
+/* Section 6 for Marketers */
+.section6 {
+    display: flex;
+    color: black;
+    margin: 10px;
+}
+.section6-row1 {
+    flex: 6;
+    font-style: initial;
+    font-size: auto;
+}
+.section6-row2 {
+    flex: 6;
+    text-align: right;
+}
+
+/* section 7 for the line and footer  */
+ .section7 {
+     display: flex;
+     flex-direction: column;
+ }
+ .section7-colmun1 {
+     flex-grow: auto;
+ }
+ .section7-column2 {
+     display: flex;
+     flex-grow: auto;
+     flex-direction: row;
+     text-align: left;
+ }
+ .section7-column2 div{
+     font-size: 20px;
+ }
